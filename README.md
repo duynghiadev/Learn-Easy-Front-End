@@ -1,2 +1,2 @@
 ### Learn-Easy-Front-End
-[Youtube]("https://www.youtube.com/@EasyFrontend")
+[Youtube](https://www.youtube.com/@EasyFrontend)
