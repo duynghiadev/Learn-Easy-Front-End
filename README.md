@@ -1,2 +1,3 @@
 ### Learn-Easy-Front-End
-[Youtube](https://www.youtube.com/@EasyFrontend)
+
+[Youtube Easy Frontend](https://www.youtube.com/@EasyFrontend)
