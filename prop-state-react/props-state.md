@@ -1,6 +1,6 @@
-# ReactJS - Props, State và Global State 🤔
+## ReactJS - Props, State và Global State 🤔
 
-Props
+Props 🚀
 
 - Không thay đổi được
 - Được truyền từ component cha
@@ -21,7 +21,7 @@ function App() {
 }
 ```
 
-State
+State 🚀
 
 - Thay đổi được
 - Dùng khi chỉ được sử dụng bởi **MỘT** component hiện tại
