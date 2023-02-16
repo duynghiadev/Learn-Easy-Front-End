@@ -1,12 +1,15 @@
+# Link project redux-in-reactjs
+
+[link redux in reactjs](https://duynghiadev.github.io/redux-in-react/)
+
 # Làm việc với Redux thông qua hooks 🎉
 
 - useSelector()
-- useDispatch() 
-
+- useDispatch()
 
 1. Setup redux store
 
-- Reducers & Root reducer 
+- Reducers & Root reducer
 - Action creators
 - Store
 
@@ -14,7 +17,6 @@
 
 - Allow redux store to be accessible from anywhere of the app.
 
-
 3. Connect to redux store from component
 
-- Using the two hooks hehee 🎉
+- Using the two hooks hehe 🎉
