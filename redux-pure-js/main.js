@@ -1,4 +1,4 @@
-console.log(window.Redux);
+console.log("This is Redux: ", window.Redux);
 
 const { createStore } = window.Redux;
 
