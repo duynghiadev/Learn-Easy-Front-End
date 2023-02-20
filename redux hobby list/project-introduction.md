@@ -16,7 +16,7 @@ Xây dựng một project mini đơn giản để ứng dụng kiến thức ph�
 `PHOTO APP`
 
 - App đơn giản để quản lý hình ảnh yêu thích, được chọn lựa từ https://picsum.photos/
-- CRUD operators 
+- CRUD operators
 - Gồm có 2 trang:
   - `Home`: listing + view + delete
   - `AddEdit`: dùng để tạo mới + sửa thông tin của một photo.
@@ -24,8 +24,8 @@ Xây dựng một project mini đơn giản để ứng dụng kiến thức ph�
 - Các chức năng:
   - Render danh sách photo yêu thích
   - Lọc photo theo category
-  - Thêm mới một photo 
-  - Chỉnh sửa một photo 
+  - Thêm mới một photo
+  - Chỉnh sửa một photo
   - Remove một photo
   - Persist dữ liệu khi reload browser.
   - Random photo ngẫu nhiên từ https://picsum.photos/
@@ -35,15 +35,14 @@ Xây dựng một project mini đơn giản để ứng dụng kiến thức ph�
 
 - ReactJS (CRA)
 - Redux (Redux Toolkit)
-- Form managemnet: Formik
+- Form management: Formik
 - Routings: React Router
 - UI lib: Reactstrap
 - Redux-Persist
 
-
 ## Bạn sẽ học được gì từ project này
 
-- Tổ chức folder, files trong thực tế. 
+- Tổ chức folder, files trong thực tế.
 - Sử dụng Redux tốt hơn với `Redux Toolkit`.
 - Biết cách tạo các custom field trong `Formik`.
 - Thiết kế routing trong ReactJS App.
@@ -54,6 +53,5 @@ Xây dựng một project mini đơn giản để ứng dụng kiến thức ph�
 - Ngay trong tuần này.
 - Kéo dài: 10-15 videos.
 - Sẽ có buổi live cuối để demo chém gió thành quả sau cùng.
-
 
 GOOD LUCK for all of us! ❤️
