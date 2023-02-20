@@ -8,6 +8,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <React.StrictMode>
+      {/* Re-render 2 lần do có Strict Mode */}
       <App />
     </React.StrictMode>
   </Provider>

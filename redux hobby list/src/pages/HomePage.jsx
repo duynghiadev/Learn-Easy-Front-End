@@ -28,8 +28,6 @@ function HomePage(props) {
     // Random a hobby object: id + title
     const newId = randomNumber();
     const newHobby = {
-      // id: casual.uuid,
-      // title: casual.title,
       id: newId,
       title: `Hobby ${newId}`,
     };
