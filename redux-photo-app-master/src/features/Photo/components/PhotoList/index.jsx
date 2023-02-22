@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Row, Col } from 'reactstrap';
-import PhotoCard from '../PhotoCard';
+import React from "react";
+import PropTypes from "prop-types";
+import { Row, Col } from "reactstrap";
+import PhotoCard from "../PhotoCard";
 
 PhotoList.propTypes = {
   photoList: PropTypes.array,
@@ -20,7 +20,7 @@ function PhotoList(props) {
 
   return (
     <Row>
-      {photoList.map(photo => (
+      {photoList.map((photo) => (
         <Col key={photo.title} xs="12" md="6" lg="3">
           <PhotoCard
             photo={photo}

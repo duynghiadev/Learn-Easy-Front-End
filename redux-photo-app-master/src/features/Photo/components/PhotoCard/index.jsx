@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Button } from 'reactstrap';
-import './PhotoCard.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import { Button } from "reactstrap";
+import "./PhotoCard.scss";
 
 PhotoCard.propTypes = {
   photo: PropTypes.object,
@@ -13,18 +13,18 @@ PhotoCard.defaultProps = {
   photo: {},
   onEditClick: null,
   onRemoveClick: null,
-}
+};
 
 function PhotoCard(props) {
   const { photo, onEditClick, onRemoveClick } = props;
 
   const handleEditClick = () => {
     if (onEditClick) onEditClick(photo);
-  }
+  };
 
   const handleRemoveClick = () => {
     if (onRemoveClick) onRemoveClick(photo);
-  }
+  };
 
   return (
     <div className="photo">
@@ -41,7 +41,12 @@ function PhotoCard(props) {
           </div>
 
           <div>
-            <Button outline size="sm" color="danger" onClick={handleRemoveClick}>
+            <Button
+              outline
+              size="sm"
+              color="danger"
+              onClick={handleRemoveClick}
+            >
               Remove
             </Button>
           </div>

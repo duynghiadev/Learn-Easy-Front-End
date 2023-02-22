@@ -1,7 +1,7 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Col, Container, Row } from 'reactstrap';
-import './Header.scss';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { Col, Container, Row } from "reactstrap";
+import "./Header.scss";
 
 Header.propTypes = {};
 
@@ -13,7 +13,7 @@ function Header() {
           <Col xs="auto">
             <a
               className="header__link header__title"
-              href="https://youtube.com/easyfrontend"
+              href="https://www.facebook.com/duynghia.22302/"
               target="_blank"
               rel="noopener noreferrer"
             >
