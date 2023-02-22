@@ -23,7 +23,7 @@ SelectField.defaultProps = {
 
 function SelectField(props) {
   const { field, form, options, label, placeholder, disabled } = props;
-  const { name, value } = field;
+  const { name, value } = field; // name is the name of the field in the formik form object ( default is name, value, onChange, onBlur )
   const { errors, touched } = form;
   const showError = errors[name] && touched[name];
 

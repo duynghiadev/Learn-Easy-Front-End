@@ -31,7 +31,6 @@ function PhotoForm(props) {
     }),
   });
 
-  // npm i --save react-select
   return (
     <Formik
       initialValues={initialValues}

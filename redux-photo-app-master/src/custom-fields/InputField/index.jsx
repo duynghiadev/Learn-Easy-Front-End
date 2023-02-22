@@ -22,7 +22,7 @@ InputField.defaultProps = {
 
 function InputField(props) {
   const { field, form, type, label, placeholder, disabled } = props;
-  const { name } = field;
+  const { name } = field; // name is the name of the field in the formik form object ( default is name, value, onChange, onBlur )
   const { errors, touched } = form;
   const showError = errors[name] && touched[name];
 
