@@ -7,7 +7,6 @@ import { FormFeedback, FormGroup, Label } from "reactstrap";
 RandomPhotoField.propTypes = {
   field: PropTypes.object.isRequired,
   form: PropTypes.object.isRequired,
-
   label: PropTypes.string,
 };
 
