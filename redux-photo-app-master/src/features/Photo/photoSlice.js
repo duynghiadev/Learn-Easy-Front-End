@@ -91,11 +91,13 @@ const photo = createSlice({
       // const newPhoto = action.payload;
       state.push(action.payload);
     },
+
     removePhoto: (state, action) => {
       console.log(action.payload);
       const removePhotoId = action.payload;
       return state.filter((photo) => photo.id !== removePhotoId);
     },
+
     updatePhoto: (state, action) => {
       const newPhoto = action.payload;
       const photoIndex = state.findIndex((photo) => photo.id === newPhoto.id);
