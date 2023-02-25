@@ -31,7 +31,7 @@ function MainPage(props) {
   return (
     <div className="photo-main">
       <Banner
-        title="🎉 Your awesome photos 🎉"
+        title="🎉🚀 Your awesome photos 🎉🚀"
         backgroundUrl={Images.PINK_BG}
       />
 

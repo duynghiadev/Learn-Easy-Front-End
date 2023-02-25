@@ -2,6 +2,8 @@
 
 [Học Redux cở bản 2020](https://tinyurl.com/2zpob73a)
 
+[Link Preview Project](http://nghia-photo-app.surge.sh/photos)
+
 # Mục tiêu
 
 Xây dựng một project mini đơn giản để ứng dụng kiến thức phần Redux vào project ReactJS.
