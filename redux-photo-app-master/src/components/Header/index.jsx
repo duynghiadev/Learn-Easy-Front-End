@@ -28,7 +28,7 @@ function Header() {
               to="/sign-in"
               activeClassName="header__link--active"
             >
-              Redux Project
+              Sign In
             </NavLink>
           </Col>
         </Row>
